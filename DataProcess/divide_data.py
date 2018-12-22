@@ -10,7 +10,7 @@ if __name__ == '__main__':
     train = './data/walmat/train'
     valid = './data/walmat/valid'
 
-    valid_num = 50
+    valid_num = 100
 
     file_list = [f for f in os.listdir(org) if not f.startswith('.')]
 
